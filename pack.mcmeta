@@ -1,7 +1,6 @@
 {
   "pack": {
     "pack_format": 71,
-    "description": "Custom Loot tables to add Spoon Coins & Spoon bills
-    "
+    "description": "Custom loot tables to add spoon coins & spoon bills as command blocks and strucutre blocks"
   }
 }
