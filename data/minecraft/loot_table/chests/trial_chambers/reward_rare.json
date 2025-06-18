@@ -195,7 +195,7 @@
             }
           ],
           "name": "minecraft:command_block",
-          "weight": 2
+          "weight": 3
         }
       ],
       "rolls": 1.0

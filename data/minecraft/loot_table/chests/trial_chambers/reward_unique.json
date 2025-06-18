@@ -41,7 +41,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:command_block"
+          "name": "minecraft:command_block",
+          "weight": 3
         }
       ],
       "rolls": 1

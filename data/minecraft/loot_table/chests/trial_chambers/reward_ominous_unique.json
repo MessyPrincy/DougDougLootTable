@@ -40,7 +40,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:structure_block"
+          "name": "minecraft:structure_block",
+          "weight": 3
         }
       ],
       "rolls": 1.0
