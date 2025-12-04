@@ -101,7 +101,6 @@
       ],
       "rolls": 1.0
     }
-    // Added 1% of Relic Key, just its in the plugin
   ],
   "random_sequence": "minecraft:spawners/ominous/trial_chamber/consumables"
 }

@@ -1,0 +1,8 @@
+Omnious Vaults {
+    7.5% Relic Key
+    10% Lifesteal I book
+}
+Vaults {
+    10% Cave Fisher I book
+    2% Cave Fisher III book
+}
