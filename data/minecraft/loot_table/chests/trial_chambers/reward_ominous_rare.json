@@ -151,6 +151,7 @@
       ],
       "rolls": 1.0
     }
+    // Added 15% of Relic Key, just its in the plugin
   ],
   "random_sequence": "minecraft:chests/trial_chambers/reward_ominous_rare"
 }
