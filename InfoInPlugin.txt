@@ -1,8 +1,25 @@
 Omnious Vaults {
     7.5% Relic Key
-    10% Lifesteal I book
+    5% Lifesteal I book
 }
 Vaults {
-    10% Cave Fisher I book
-    2% Cave Fisher III book
+    5% Cave Fisher I book
+    1% Cave Fisher III book
+}
+
+
+
+Relics {
+    (72 - VT * 10)% Common {
+        Void Trace
+        Relic Leather
+        Relic String
+    }
+    (26 + VT * 6)% Uncommon {
+        Relic Ingot
+        Relic Stick
+    }
+    (2 + VT * 4)% Rare {
+        Broken Relic armor pieces
+    }
 }
