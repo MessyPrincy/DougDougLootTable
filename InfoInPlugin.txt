@@ -10,16 +10,42 @@ Vaults {
 
 
 Relics {
-    (72 - VT * 10)% Common {
+    (72 - voidTrace * 10)% Common {
         Void Trace
         Relic Leather
         Relic String
     }
-    (26 + VT * 6)% Uncommon {
+    (26 + voidTrace * 6)% Uncommon {
         Relic Ingot
         Relic Stick
     }
-    (2 + VT * 4)% Rare {
+    (2 + voidTrace * 4)% Rare {
         Broken Relic armor pieces
+    }
+}
+
+Enchantments {
+    Lifesteal {
+        healAmount = finalDamage * (level * 0.1)
+    }
+
+    Cavefisher {
+        (60 - level * 8)% Common {
+            Coal
+            Copper Ingot
+            Iron Ingot
+        }
+        (30 + level * 3)% Uncommon {
+            Gold Ingot
+            Redstone
+            Lapis Lazuli
+        }
+        (10 + level * 5)% Rare {
+            Diamond
+            Emerald
+            if (level >= 4) {
+                15% Netherite Ingot
+            }
+        }
     }
 }
