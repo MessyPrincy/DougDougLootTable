@@ -11,8 +11,9 @@ Vaults {
 
 
 Relics {
+    Void Trace (always drops)
     (72 - voidTrace * 10)% Common {
-        Void Trace
+        Relic Wood
         Relic Leather
         Relic String
     }
@@ -32,8 +33,10 @@ Enchantments {
 
     Pull {
         onShieldBlock {
-            Pull range = 1 + (level * 2);
+            If (!PULL_COOLDOWN) {
+                Pull range = 1 + (level * 2);
             Slowness II for 20 ticks
+            }
         }
     }
 
