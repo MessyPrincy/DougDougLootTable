@@ -1,6 +1,7 @@
 Omnious Vaults {
-    7.5% Relic Key
-    5% Lifesteal I book
+    10% Relic Key
+    2.5% Lifesteal I book
+    2.5% Pull I book
 }
 Vaults {
     5% Cave Fisher I book
@@ -27,6 +28,11 @@ Relics {
 Enchantments {
     Lifesteal {
         healAmount = finalDamage * (level * 0.05)
+    }
+
+    Pull {
+        Pull range = 1 + (level * 2);
+        Slowness II for 20 ticks
     }
 
     Cavefisher {
