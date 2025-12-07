@@ -31,8 +31,10 @@ Enchantments {
     }
 
     Pull {
-        Pull range = 1 + (level * 2);
-        Slowness II for 20 ticks
+        onShieldBlock {
+            Pull range = 1 + (level * 2);
+            Slowness II for 20 ticks
+        }
     }
 
     Cavefisher {
